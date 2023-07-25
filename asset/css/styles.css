@@ -526,14 +526,14 @@ a {
     margin-top: 90px;
 }
 .subscribe .body {
-    position: relative;
-    border-radius: 20px;
-    background: #063183;
-    height: 370px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+    height: 370px;
     padding: 0 80px;
+    background: #063183;
+    border-radius: 20px;
 }
 
 .subscribe .info {
@@ -541,21 +541,21 @@ a {
 }
 
 .subscribe .sub-title {
-    color: var(--white-color);
     font-size: 3.5rem;
     font-weight: 600;
+    color: var(--white-color);
 }
 
 .subscribe .desc {
     margin-top: 15px;
-    color: var(--white-color);
     line-height: 187.5%; /* 187.5% */
+    color: var(--white-color);
 }
 
 .subscribe .sub-btn {
     min-width: 151px;
-    background: var(--white-color);
     margin-top: 20px;
+    background: var(--white-color);
     color: #002366;
 }
 
@@ -565,4 +565,77 @@ a {
     bottom: 0;
     right: 230px;
     width: 219px;
+}
+
+/* ==================== Footer ==================== */
+.footer {
+    margin-top: 55px;
+    padding: 50px 0 58px;
+}
+
+.footer .row {
+    display: flex;
+    gap: 185px;
+}
+
+.footer .heading {
+    font-size: 2rem;
+    font-family: Lato;
+    font-weight: 700;
+    color: #1c1c1d;
+}
+
+.footer .list {
+    margin-top: 42px;
+}
+
+.footer .item {
+    margin-top: 18px;
+}
+
+.footer .item a {
+    color: #7a7a7e;
+}
+
+.footer .item a:hover {
+    text-decoration: underline;
+}
+
+.footer .desc {
+    margin: 40px 0;
+    line-height: 1.5;
+    color: #7a7a7e;
+}
+
+.footer .social-list {
+    display: flex;
+    gap: 14px;
+    margin-top: 40px;
+    color: #7a7a7e;
+}
+
+.footer .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    background: #f9f9f9;
+    border-radius: 3px;
+    color: #646464;
+}
+
+.footer .social-icon:hover {
+    background: #ececec;
+}
+
+.footer .row-bottom {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 81px;
+}
+
+.footer .copyright {
+    font-size: 1.4rem;
+    color: #c2c2c2;
 }
