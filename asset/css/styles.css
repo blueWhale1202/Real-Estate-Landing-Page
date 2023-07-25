@@ -5,6 +5,8 @@
 :root {
     --primary-color: #0f1b4c;
     --white-color: #fff;
+
+    --content-width: 1110px;
 }
 
 html {
@@ -22,8 +24,9 @@ a {
 }
 
 .btn {
-    display: inline-block;
-    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     padding: 18px 16px;
     border-radius: 12px;
     background: var(--primary-color);
@@ -38,16 +41,18 @@ a {
 }
 
 .content {
-    width: 111rem;
+    width: var(--content-width);
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* Header */
+/* ==================== Header ==================== */
 .header {
+    position: relative;
     background: #e6f0ff;
     padding-top: 28px;
+    height: 100vh;
 }
 
 .header .navbar {
@@ -76,6 +81,11 @@ a {
     text-decoration: underline;
 }
 
+.navbar .action {
+    display: flex;
+    align-items: center;
+}
+
 .action-link {
     color: var(--primary-color);
     font-size: 1.4rem;
@@ -87,4 +97,44 @@ a {
     min-width: 98px;
     border-radius: 8px;
     padding: 14px 16px;
+}
+
+/* Hero */
+.hero .info {
+    margin-top: 130px;
+    width: 51%;
+}
+
+.hero .sub-title {
+    color: #687690;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.01em;
+}
+
+.hero .title {
+    margin-top: 8px;
+    color: #000336;
+    font-size: 6.4rem;
+    font-weight: 700;
+    line-height: 118.75%;
+}
+
+.hero .desc {
+    margin-top: 30px;
+    color: #5a6473;
+    font-size: 1.8rem;
+    line-height: 177.778%;
+}
+
+.hero-cta {
+    margin-top: 40px;
+    min-width: 170px;
+}
+
+.hero-img {
+    position: absolute;
+    bottom: 0;
+    right: calc((100vw - var(--content-width)) / 2 - 100px);
 }
