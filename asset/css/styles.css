@@ -5,7 +5,6 @@
 :root {
     --primary-color: #0f1b4c;
     --white-color: #fff;
-
     --content-width: 1110px;
 }
 
@@ -14,8 +13,8 @@ html {
 }
 
 body {
-    font-family: "Poppins", serif;
     font-size: 1.6rem;
+    font-family: "Poppins", serif;
 }
 
 /* Common */
@@ -26,13 +25,12 @@ a {
 
 .btn {
     display: inline-flex;
-    align-items: center;
     justify-content: center;
-    padding: 18px 16px;
+    align-items: center;
     min-width: 170px;
-    border-radius: 12px;
+    padding: 18px 16px;
     background: var(--primary-color);
-
+    border-radius: 12px;
     font-size: 1.3rem;
     font-weight: 500;
     color: var(--white-color);
@@ -45,23 +43,23 @@ a {
 .content {
     width: var(--content-width);
     max-width: 100%;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
 }
 
 .line-clamp {
-    display: -webkit-box;
     -webkit-line-clamp: var(--line-break, 3);
     -webkit-box-orient: vertical;
+    display: -webkit-box;
     overflow: hidden;
 }
 
 /* ==================== Header ==================== */
 .header {
     position: relative;
-    background: #e6f0ff;
-    padding-top: 28px;
     height: 100vh;
+    padding-top: 28px;
+    background: #e6f0ff;
 }
 
 .header .navbar {
@@ -81,9 +79,9 @@ a {
 .navbar ul a {
     display: block;
     padding: 12px 14px;
-    color: #4f5361;
     font-size: 1.4rem;
     font-weight: 500;
+    color: #4f5361;
 }
 
 .navbar ul a:hover {
@@ -96,50 +94,50 @@ a {
 }
 
 .action-link {
-    color: var(--primary-color);
     font-size: 1.4rem;
     font-weight: 500;
+    color: var(--primary-color);
 }
 
 .action-btn {
-    margin-left: 18px;
     min-width: 98px;
-    border-radius: 8px;
+    margin-left: 18px;
     padding: 14px 16px;
+    border-radius: 8px;
 }
 
 /* Hero */
 .hero .info {
-    margin-top: 130px;
     width: 51%;
+    margin-top: 130px;
 }
 
 .hero .sub-title {
-    color: #687690;
     font-size: 1.8rem;
     font-weight: 500;
     line-height: normal;
+    color: #687690;
     letter-spacing: 0.01em;
 }
 
 .hero .title {
     margin-top: 8px;
-    color: #000336;
     font-size: 6.4rem;
     font-weight: 700;
     line-height: 118.75%;
+    color: #000336;
 }
 
 .hero .desc {
     margin-top: 30px;
-    color: #5a6473;
     font-size: 1.8rem;
     line-height: 177.778%;
+    color: #5a6473;
 }
 
 .hero-cta {
-    margin-top: 40px;
     min-width: 170px;
+    margin-top: 40px;
 }
 
 .hero-img {
@@ -165,10 +163,10 @@ a {
 }
 
 .client .row .desc {
-    color: #7d8589;
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 125%;
+    color: #7d8589;
 }
 
 .client .row + .row {
@@ -199,36 +197,35 @@ a {
 
 .guides .sub-title {
     --color: #000339;
-
     position: relative;
-    color: var(--color);
     font-size: 3.5rem;
     font-weight: 600;
+    color: var(--color);
     text-align: center;
 }
 
 .guides .sub-title::before {
+    content: "";
+    display: block;
     position: absolute;
     top: -10px;
     left: 50%;
     transform: translateX(-50%);
-    content: "";
-    display: block;
     width: 41px;
     height: 4px;
-    border-radius: 9999px;
     background-color: var(--color);
+    border-radius: 9999px;
 }
 
 .guides .desc {
-    margin: 20px auto 70px;
     width: 459px;
     max-width: 100%;
-    color: #5a6473;
-    text-align: center;
+    margin: 20px auto 70px;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 187.5%;
+    color: #5a6473;
+    text-align: center;
 }
 
 .list-guides {
@@ -244,18 +241,18 @@ a {
 
 .guide-item .title {
     margin-top: 26px;
-    color: #3b3c45;
     font-size: 2rem;
     font-weight: 500;
     line-height: 110%; /* 110% */
+    color: #3b3c45;
 }
 
 .guide-item .link {
     display: inline-block;
     margin-top: 10px;
-    color: #0689ff;
     font-size: 1.4rem;
     font-weight: 600;
+    color: #0689ff;
 }
 
 .guide-item .link .arrow {
@@ -275,27 +272,27 @@ a {
 }
 
 .feature-title {
-    color: #000339;
     font-size: 3.5rem;
     font-weight: 600;
+    color: #000339;
 }
 
 .feature .row {
-    margin-top: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 15px;
 }
 
 .feature .row .desc {
-    color: #5a6473;
     line-height: 187.5%;
+    color: #5a6473;
 }
 
 .feature .link {
-    color: #0689ff;
     font-size: 1.8rem;
     font-weight: 600;
+    color: #0689ff;
 }
 
 .feature .link .arrow-right {
@@ -304,16 +301,16 @@ a {
 }
 
 .feature-list {
-    margin-top: 70px;
     display: flex;
     overflow: auto;
+    margin-top: 70px;
 }
 
 .feature-item {
-    width: calc((100% - 60px) / 3);
     flex-shrink: 0;
-    border-radius: 12px;
+    width: calc((100% - 60px) / 3);
     background: var(--white-color);
+    border-radius: 12px;
 }
 
 .feature-item + .feature-item {
@@ -321,9 +318,9 @@ a {
 }
 
 .feature .thumb {
+    object-fit: cover;
     width: 100%;
     height: 227px;
-    object-fit: cover;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
@@ -333,25 +330,25 @@ a {
 }
 
 .feature-item .title {
-    color: #000339;
     font-size: 2rem;
     font-weight: 600;
+    color: #000339;
 }
 
 .feature-item .desc {
     margin-top: 11px;
-    color: #a3a6ab;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.5;
+    color: #a3a6ab;
     word-break: break-all;
 }
 
 .feature-item .info {
-    margin-top: 22px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 22px;
 }
 
 .feature-item .item {
@@ -361,9 +358,9 @@ a {
 
 .feature-item .item .label {
     margin-left: 8px;
-    color: #4d4d52;
     font-size: 1.4rem;
     font-weight: 500;
+    color: #4d4d52;
     letter-spacing: 0.01em;
 }
 
@@ -373,6 +370,153 @@ a {
 
 .center {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+
+/* ==================== Stats ==================== */
+.stats {
+    padding: 150px 0 50px;
+}
+
+.stats .content {
+    width: 1017px;
+    max-width: 100%;
+}
+
+.stats .row {
+    display: flex;
+}
+
+.stats .img-block {
+    position: relative;
+    width: 51%;
+}
+
+.stats .img-block .image {
+    object-fit: cover;
+    box-shadow: 40px 80px 155px 0px rgba(30, 103, 113, 0.03);
+    display: block;
+    width: 400px;
+    height: 460px;
+    margin-left: auto;
+    border-radius: 12px;
+}
+
+.stats-trend {
+    box-shadow: 90px 85px 100px 0px rgba(0, 0, 0, 0.06);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 239px;
+    padding: 45px 22px 40px;
+    background: #fff;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.stats-trend .value {
+    margin-right: auto;
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #000339;
+    letter-spacing: 0.01em;
+}
+
+.stats-trend .desc {
+    margin-top: 8px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #a7a7a7;
+}
+
+.stats-trend .separate {
+    width: 193.62px;
+    height: 1.2px;
+    margin-top: 25px;
+    background: #e9e9e9;
+    border-radius: 9999px;
+}
+
+.stats .info {
+    width: 49%;
+    padding-top: 79px;
+    padding-left: 165px;
+}
+
+.stats .info .sub-title {
+    position: relative;
+    width: 269px;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 128.571%; /* 128.571% */
+    color: #000339;
+}
+
+.stats .info .sub-title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 41px;
+    height: 4px;
+    background: #000339;
+    border-radius: 9999px;
+}
+
+.stats .info .desc {
+    width: 309px;
+    margin-top: 20px;
+    font-weight: 400;
+    line-height: 187.5%; /* 187.5% */
+    color: #5a6473;
+}
+
+.stats-trend .avatar-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 14px;
+    margin-top: 25px;
+}
+
+.stats-trend .avatar-group {
+    display: flex;
+}
+
+.stats-trend .avatar {
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    background-color: var(--bg-avatar, #fff);
+    border-radius: 50%;
+    font-size: 0.8rem;
+    color: var(--white-color);
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+}
+
+.stats-trend .avatar + .avatar {
+    margin-left: -3px;
+}
+
+.stats .qty-row {
+    justify-content: space-between;
+    margin-top: 110px;
+}
+
+.stats .qty-value {
+    font-size: 6.4rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.stats .qty-desc {
+    margin-top: 22px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #7b8087;
+    text-align: center;
 }
