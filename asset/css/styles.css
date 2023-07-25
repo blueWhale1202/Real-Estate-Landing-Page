@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #0f1b4c;
+    --white-color: #fff;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", serif;
+    font-size: 1.6rem;
+}
+
+/* Common */
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    padding: 18px 16px;
+    border-radius: 12px;
+    background: var(--primary-color);
+
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--white-color);
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.content {
+    width: 111rem;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header */
+.header {
+    background: #e6f0ff;
+    padding-top: 28px;
+}
+
+.header .navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    margin-left: 50px;
+}
+
+.navbar .action {
+    margin-left: auto;
+}
+
+.navbar ul a {
+    display: block;
+    padding: 12px 14px;
+    color: #4f5361;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.navbar ul a:hover {
+    text-decoration: underline;
+}
+
+.action-link {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.action-btn {
+    margin-left: 18px;
+    min-width: 98px;
+    border-radius: 8px;
+    padding: 14px 16px;
+}
