@@ -612,12 +612,12 @@ a {
 
 .footer .social-list {
     display: flex;
-    gap: 14px;
+    gap: 16px;
     margin-top: 40px;
     color: #7a7a7e;
 }
 
-.footer .social-icon {
+.footer .social-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -628,7 +628,7 @@ a {
     color: #646464;
 }
 
-.footer .social-icon:hover {
+.footer .social-link:hover {
     background: #ececec;
 }
 
