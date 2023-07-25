@@ -138,3 +138,46 @@ a {
     bottom: 0;
     right: calc((100vw - var(--content-width)) / 2 - 100px);
 }
+
+/* ==================== Client ==================== */
+.client {
+    margin-top: 79px;
+    padding: 43px 0;
+}
+
+.client .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.client .starts {
+    color: #ffca56;
+}
+
+.client .row .desc {
+    color: #7d8589;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 125%;
+}
+
+.client .row + .row {
+    margin-top: 23px;
+}
+
+.client .images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.client .images img {
+    padding: 20px 20px;
+    border-radius: 12px;
+}
+
+.client .images img:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
+}
