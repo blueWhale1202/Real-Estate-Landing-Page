@@ -1,36 +1,5 @@
 # Real-Estate-Landing-Page
-
-## Header
-
-![Header](./image-product/Header.png)
-
-## Client
-
-<div style="background: #fff;">
-    <img src="./image-product/Client.png">
-</div>
-
-## Guides
-
-<div style="background: #fff;">
-    <img src="./image-product/Guides.png">
-</div>
-
-## Feature
-
-![Feature](./image-product/Feature.png)
-
-## Stats
-
-<div style="background: #fff;">
-    <img src="./image-product/Stats.png">
-</div>
-
-## Footer
-
-<div style="background: #fff;">
-    <img src="./image-product/Footer.png">
-</div>
+![Real-Estate Landing Page v2](https://github.com/blueWhale1202/Real-Estate-Landing-Page/assets/120623976/de91c5b9-440c-4c07-9070-b58aea42ca08)
 
 ### I made Real Estate Landing Page using HTML, CSS only
 
