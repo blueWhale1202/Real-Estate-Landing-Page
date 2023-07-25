@@ -4,7 +4,7 @@
 ### I made Real Estate Landing Page using HTML, CSS only
 
 > I deployed my project on github page. so you can check it out 👇
-> <br>
+> <br>[Real-Estate-Landing-Page](https://bluewhale1202.github.io/Real-Estate-Landing-Page/)
 
 ### [📌Resources](<https://www.figma.com/file/PzWSXPWcn4GCZWkvFPdalX/01.-Real-Estate-Landing-Page-(Easy)-(Copy)?type=design&node-id=2%3A410&mode=design&t=fM6aftY4e1DvWf4p-1>)
 
